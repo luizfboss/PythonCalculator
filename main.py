@@ -80,6 +80,6 @@ equal_btn = Button(cal, padx=16, bd=5, fg='white', font=('arial', 20),
                    text="=", bg='grey', command=btnEqualsInput).grid(row=4, column=2)
 div_btn = Button(cal, padx=16, bd=5, fg='white', font=('arial', 20),
                  text="/", bg='grey', command=lambda: btnClick('/')).grid(row=4, column=3)
-# =============================================================================
+# ============================================================================
 # Execute the code in a loop that won't close except the user closes the calculator's tab
 cal.mainloop()
